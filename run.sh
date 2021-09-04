@@ -1,5 +1,7 @@
 #!/bin/bash
 
+curl https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-states.csv > /tmp/us-states.csv
+
 cd COVID-19
 git pull
 cd ..
